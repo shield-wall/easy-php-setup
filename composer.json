@@ -1,0 +1,20 @@
+{
+    "name": "shield-wall/easy-php-setup",
+    "description": "It is a simple way to make php run locally",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Erison Silva"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^6.3",
+        "symfony/http-foundation": "^6.3",
+        "twig/twig": "^3.0"
+    }
+}
