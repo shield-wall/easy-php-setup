@@ -16,6 +16,7 @@ return (new PhpCsFixer\Config())
       'array_syntax' => ['syntax' => 'short'],
       'blank_line_after_opening_tag' => true,
       'declare_strict_types' => true,
+      'php_unit_test_case_static_method_calls' => ['call_type' => 'this'],
   ])
   ->setFinder($finder)
 ;
