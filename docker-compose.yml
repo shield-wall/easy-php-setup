@@ -14,7 +14,6 @@ services:
     image: shieldwalll/php:8.2.12-fpm-mysql-dev 
     volumes:
       - ./:/app
-      - .docker/php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
     links:
       - db
   db:
