@@ -11,7 +11,7 @@ services:
       - php
 
   php:
-    image: shieldwalll/php:8.2.12-fpm-mysql-dev 
+    image: shieldwalll/php:8.4.13-fpm-mysql-dev 
     volumes:
       - ./:/app
     links:
