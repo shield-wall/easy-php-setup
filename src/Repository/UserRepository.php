@@ -26,7 +26,7 @@ class UserRepository
      * */
     private function connection(): \PDO
     {
-        $pdo = new \PDO('mysql:host=database;dbname=easy-php-setup', 'root', '123456');
+        $pdo = new \PDO('mysql:host=database;dbname=app', 'root', '123456');
         $pdo->setAttribute(\PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);
 
         return $pdo;
